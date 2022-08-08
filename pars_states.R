@@ -298,6 +298,8 @@ vec_impact_clean_order = c("none",
                            "all responses")
 
 ### case studies
+size_text = 3
+
 vec_wards_clean = c("short-stay ward\n(geriatric)", "general ward\n(paediatric)", "rehabilitation ward\n(geriatric)")
 vec_species_clean = c("MRSA", "ESBL-E. coli")
 vec_wards_scenarios_clean = c("short-stay ward\n(geriatric) (organized)", "short-stay ward\n(geriatric) (intermediate)", "short-stay ward\n(geriatric) (overwhelmed)",
