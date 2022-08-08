@@ -42,11 +42,11 @@ Analysis 3 describes Monte Carlo simulations applied to case studies of specific
   
 # data
 * (7.1) outputs_analysis1/
- * parameter values and simulation outputs for analysis 1
+  * parameter values and simulation outputs for analysis 1
 * (7.2) outputs_analysis2/
- * parameter values and summarized final indicators calculated from simulation outputs for analysis 2 (raw output data excluded; space exceeded)
+  * parameter values and summarized final indicators calculated from simulation outputs for analysis 2 (raw output data excluded; space exceeded)
 * (7.3) outputs_analysis3/
- * parameter values for analyis 3 (output data excluded; space exceeded)
+  * parameter values for analyis 3 (output data excluded; space exceeded)
 
 # contact
 David Smith \
