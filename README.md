@@ -38,15 +38,15 @@ Analysis 3 describes Monte Carlo simulations applied to case studies of specific
 * (6.1) pipeline_figures_analysis1.R
 * (6.2) pipeline_figures_analysis1.R
 * (6.3) pipeline_figures_analysis1.R
-  * files for rendering figures for respective analyses (described above)
+  * files for rendering figures for respective analyses (described above); necessary to create a sub-directory "plots" in which to save figures rendered
   
 # data
 * (7.1) outputs_analysis1/
   * parameter values and simulation outputs for analysis 1
 * (7.2) outputs_analysis2/
-  * parameter values and summarized final indicators calculated from simulation outputs for analysis 2 (raw output data excluded; space exceeded)
+  * parameter values and simulation outputs for analysis 2, as well as summarized final indicators calculated from simulation outputs
 * (7.3) outputs_analysis3/
-  * parameter values for analyis 3 (output data excluded; space exceeded)
+  * parameter values and simulations outputs for analyis 3 (raw data only provided for t_policy_in = 21 days as space exceeded), as well as summarized final indicators
 
 # contact
 David Smith \
