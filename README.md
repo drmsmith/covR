@@ -1,7 +1,7 @@
 # covR
 An evaluation of how COVID-19 responses impact antibiotic resistance, built upon a deterministic, compartmental transmission model describing co-circulation of SARS-CoV-2 and competing strains of commensal bacteria in a healthcare facility population.
 
-This R code supports Smith et al., (2022). Collateral impacts of COVID-19 on the nosocomial spread of antibiotic resistance: A modelling study.
+This R code supports Smith et al., (2022). Collateral impacts of pandemic COVID-19 drive the nosocomial spread of antibiotic resistance.
 
 All code was developed, tested and run using Rv3.6.0
 
@@ -38,7 +38,7 @@ Analysis 3 describes Monte Carlo simulations applied to case studies of specific
 * (6.1) pipeline_figures_analysis1.R
 * (6.2) pipeline_figures_analysis1.R
 * (6.3) pipeline_figures_analysis1.R
-  * files for rendering figures for respective analyses (described above); necessary to create a sub-directory "plots" in which to save figures rendered
+  * files for rendering figures for respective analyses (described above); it is necessary for users to create a sub-directory "plots" in which to save figures rendered
   
 # data
 * (7.1) outputs_analysis1/
@@ -46,7 +46,7 @@ Analysis 3 describes Monte Carlo simulations applied to case studies of specific
 * (7.2) outputs_analysis2/
   * parameter values and simulation outputs for analysis 2, as well as summarized final indicators calculated from simulation outputs
 * (7.3) outputs_analysis3/
-  * parameter values and simulations outputs for analyis 3 (raw data only provided for t_policy_in = 21 days as space exceeded), as well as summarized final indicators
+  * parameter values and simulations outputs for analyis 3 (raw data are only provided for t_policy_in = 21 days, as space exceeded), as well as summarized final indicators
 
 # contact
 David Smith \
