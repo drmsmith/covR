@@ -193,13 +193,13 @@ names(list_impacts) <- vec_impactnames
 ### Data frame of characteristics of different pandemic impacts
 
 # policy responses
-df_pandI_prophylaxis = data.frame(impact = 'COVID-19 prophylaxis', par = 'prophylaxis', type = 'policy', category = "abx")
+df_pandI_prophylaxis = data.frame(impact = 'COVID-19 prescribing', par = 'prophylaxis', type = 'policy', category = "abx")
 df_pandI_handrub = data.frame(impact = 'hand hygiene', par = 'handrub', type = 'policy', category = "ipc")
 df_pandI_masks = data.frame(impact = 'universal masking', par = 'masks', type = 'policy', category = "ipc")
 df_pandI_distancing = data.frame(impact = 'patient lockdown', par = 'distancing', type = 'policy', category = "contact")
 
 # dynamic responses
-df_pandI_disorg = data.frame(impact = 'cohorting disorganization', par = 'disorg', type = 'burden', category = "contact")
+df_pandI_disorg = data.frame(impact = 'care disorganization', par = 'disorg', type = 'burden', category = "contact")
 df_pandI_a_surge = data.frame(impact = 'abandoned stewardship', par = 'a_surge', type = 'burden', category = "abx")
 df_pandI_comm_denom = data.frame(impact = 'sicker casemix', par = 'comm_denom', type = 'burden', category = "admission")
 df_pandI_sickleave = data.frame(impact = 'staff sick leave', par = 'sickleave', type = 'burden', category = "disease")
@@ -277,8 +277,8 @@ labels_5combos = c(expression(paste("antibiotics (", tau[cp]," and ", tau[as],")
                   expression(paste("admission (", tau[ra]," and ", tau[sc],")")))
 
 labels_all10 = c(expression(paste("abandoned stewardship (", tau[as],")")), 
-                 expression(paste("COVID-19 prophylaxis (", tau[cp],")")), 
-                 expression(paste("cohorting disorganization (", tau[cd],")")), 
+                 expression(paste("COVID-19 prescribing (", tau[cp],")")), 
+                 expression(paste("care disorganization (", tau[cd],")")), 
                  expression(paste("patient lockdown (", tau[pl],")")),
                  expression(paste("universal masking (", tau[um], ")")), 
                  expression(paste("hand hygiene (", tau[hh], ")")), 
@@ -288,8 +288,8 @@ labels_all10 = c(expression(paste("abandoned stewardship (", tau[as],")")),
                  expression(paste("sicker casemix (", tau[sc],")")))
 
 vec_impact_clean_order = c("none",
-                           "abandoned stewardship", "COVID-19 prophylaxis",
-                           "cohorting disorganization", "patient lockdown",
+                           "abandoned stewardship", "COVID-19 prescribing",
+                           "care disorganization", "patient lockdown",
                            "universal masking", "hand hygiene",
                            "COVID-19 stays", "staff sick leave",
                            "reduced admission", "sicker casemix",
