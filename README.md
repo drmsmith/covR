@@ -1,7 +1,8 @@
 # covR
 An evaluation of how COVID-19 responses impact antibiotic resistance, built upon a deterministic, compartmental transmission model describing co-circulation of SARS-CoV-2 and competing strains of commensal bacteria in a healthcare facility population.
 
-This R code supports Smith et al., (2022). Collateral impacts of pandemic COVID-19 drive the nosocomial spread of antibiotic resistance.
+This R code supports Smith DRM et al., Collateral impacts of pandemic COVID-19 drive the nosocomial spread of antibiotic resistance. PLOS Medicine 2023. 
+https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004240
 
 All code was developed, tested and run using Rv3.6.0
 
